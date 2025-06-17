@@ -1,0 +1,2 @@
+# stocktradingsim
+stockdata backtester
