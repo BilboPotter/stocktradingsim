@@ -5,8 +5,8 @@ import pandas as pd
 from datetime import datetime
 
 # Configuration
-CREDENTIALS_PATH = r"C:\Users\Reio\Desktop\Folderid\Proge\Projektid\Stock analysis\fourth-gantry-443708-n2-48cba6184af8.json"
-OUTPUT_SHEET_URL = "https://docs.google.com/spreadsheets/d/17og3NaMOTc0DFJQ1FmOA91DUHbUc9STBiPuZ0GYlX1g/edit?gid=2123418801#gid=2123418801"
+CREDENTIALS_PATH = r"fourth-gantry"
+OUTPUT_SHEET_URL = "Sheet url"
 
 def append_trades_to_sheet(trades, full_data_with_indicators, sheet_url=OUTPUT_SHEET_URL):
     """
